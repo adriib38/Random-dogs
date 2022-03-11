@@ -1,0 +1,61 @@
+body{
+    background: linear-gradient(0deg, #7b4397, #dc2430);
+    background-size: 400% 400%;
+
+    -webkit-animation: bgGardient 11s ease infinite;
+    -moz-animation: bgGardient 11s ease infinite;
+    -o-animation: bgGardient 11s ease infinite;
+    animation: bgGardient 11s ease infinite;
+}
+
+
+
+@-webkit-keyframes bgGardient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes bgGardient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes bgGardient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes bgGardient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@-webkit-keyframes cityCard {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes cityCard {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes cityCard {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes cityCard {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+#img{
+
+    border : 2px solid black;
+    margin : 60px auto;
+    border-radius: 8px;
+    width : auto;
+}
